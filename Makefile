@@ -24,7 +24,7 @@ SRC 				=				$(PSRC)testfile1.cpp \
 										$(PSRC)BaseApplication.cpp
 OBJS				=				$(SRC:.cpp=.o)
 
-CXX					=				g++
+CXX					=				g++-4.8
 ##ifeq 								($(DEBUG),true)
 ##	CXXFLAGS			=				-Wall -Wextra -Werror -std=c++11 -g3
 ##else
