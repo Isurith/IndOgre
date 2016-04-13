@@ -27,6 +27,8 @@ public:
 
 protected:
 	virtual void createScene(void);
+  virtual void createCamera();
+  virtual void createViewports();
 };
 
 #endif // #ifndef __TutorialApplication_h_
