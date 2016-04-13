@@ -31,7 +31,7 @@ CXX					=				g++-4.8
 ##	CXXFLAGS			=				-Wall -Wextra -Werror -std=c++11
 ##endif
 CXXFLAGS		+=			-I ./inc/
-OGREFLAGS		=				-lboost_system -lOgreMain -lOgreOverlay -lOIS
+OGREFLAGS		=				-lboost_system -lOgreMain -lOgreOverlay -lOIS -lpng
 
 all					 : $(NAME)
 ifeq ($(DEBUG),true)
